@@ -1,0 +1,18 @@
+<exe: file = import.gist
+    <button>Save<button>
+buttonstyle; normal
+buttonimport; soft
+     layout; main
+   <view>=TEXTURE=<view>
+      java; texture
+       texture; png
+    source((element.view)
+    layout((; main
+         source((texture + 3d)
+         export((texture.c((import)
+      main( c + sourceFile)
+view; main(texture; source)
+          print( element = val)
+
+
+  
