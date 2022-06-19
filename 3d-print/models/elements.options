@@ -1,0 +1,8 @@
+.module START:
+#import? <windows.h>
+#import? <stream.h>
+  block main
+     !element type="button">File<?>
+     !onclick = clibary.ExceptionImport("/3d-print/main.c");
+  block end
+.module end
